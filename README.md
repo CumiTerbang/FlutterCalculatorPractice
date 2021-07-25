@@ -1,16 +1,6 @@
-# flutter_calculator_practice
+# Flutter Calculator Practice
 
-A new Flutter project.
+<img src="https://github.com/CumiTerbang/FlutterCalculatorPractice/blob/master/readme_assets/screenshot_1.jpg" width="200" height="355,56">
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A Simple Flutter project.
+In this project I try to create simple mobile apps for practice based on this [Youtube Video](https://www.youtube.com/watch?v=eVG5DkPF5x8&ab_channel=1BestCsharpblog)
