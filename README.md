@@ -1,6 +1,6 @@
 # Flutter Calculator Practice
 
-<img src="https://github.com/CumiTerbang/FlutterCalculatorPractice/blob/master/readme_assets/screenshot_1.jpg" width="200" height="355,56">
+<img src="https://github.com/CumiTerbang/FlutterCalculatorPractice/blob/master/readme_assets/screenshot_1.jpg" width="200" height="355,56"> <img src="https://github.com/CumiTerbang/FlutterCalculatorPractice/blob/master/readme_assets/screenshot_2.jpg" width="200" height="355,56">
 
 A Simple Flutter project.
 

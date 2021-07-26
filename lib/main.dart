@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_calculator_practice/titlescreen_page.dart';
 
-import 'homepage.dart';
+import 'calculator_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,11 +17,11 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitDown,
     ]);
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Calculator Practice',
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
-      home: MyHomePage(title: 'Flutter Calculator Practice'),
+      home: TitleScreenPage(),
     );
   }
 }

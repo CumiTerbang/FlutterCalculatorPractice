@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
+class CalculatorPage extends StatefulWidget {
+  CalculatorPage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _CalculatorPageState createState() => _CalculatorPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _CalculatorPageState extends State<CalculatorPage> {
   String output = "0";
   String _output = "0";
   String operand = "";
