@@ -15,23 +15,22 @@ class TitleScreenPage extends StatelessWidget {
                 fit: BoxFit.fill, image: new AssetImage(imgsrc))));
   }
 
-  ConstrainedBox buildButtonNext(
-      BuildContext context, String label, MaterialPageRoute target) {
+  ConstrainedBox buildButtonNextPage(
+      BuildContext context, String label, Widget targetPage) {
     return ConstrainedBox(
       constraints: BoxConstraints.tightFor(width: 200),
       child: ElevatedButton(
-        child: Text(label),
-        onPressed: () {
-          Navigator.push(
-            context,
-            target,
-          );
-        },
-      ),
+          child: Text(label),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => targetPage),
+            );
+          }),
     );
   }
 
-  Widget buildBodyContent(BuildContext context){
+  Widget buildBodyContent(BuildContext context) {
     return Stack(children: [
       Positioned.fill(
         //
@@ -55,14 +54,10 @@ class TitleScreenPage extends StatelessWidget {
           Divider(
             height: 30.0,
           ),
-          buildButtonNext(
-              context,
-              "Open Calculator",
-              MaterialPageRoute(
-                  builder: (context) =>
-                      CalculatorPage(title: "Calculator Page"))),
-          buildButtonNext(context, "About",
-              MaterialPageRoute(builder: (context) => AboutPage())),
+          buildButtonNextPage(context, "Open Calculator",
+              CalculatorPage(title: "Calculator Page")),
+          buildButtonNextPage(context, "About",
+              AboutPage()),
         ],
       ),
     ]);
@@ -79,4 +74,5 @@ class TitleScreenPage extends StatelessWidget {
       ),
     );
   }
+
 }
